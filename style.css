@@ -1,0 +1,167 @@
+/*common css start*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0F2656;
+}
+/*common css end*/
+
+/*header start*/
+header{
+    border: 1px solid;
+    padding: 10px 0;
+}
+.container {
+	margin: 0 auto;
+	width: 90%;
+	/*border: 1px solid red;*/
+	overflow: hidden;
+
+}
+
+.logo {
+	width: 10%;
+	/*border: 1px solid;*/
+	float: left;
+
+}
+.logo img{
+	width: 100%;
+}
+
+.manu {
+    width: 60%;
+    /*border: 1px solid;*/
+    float: right;
+}
+.manu ul{
+	float: right;
+}
+.manu ul li{
+	list-style: none;
+	float: left;
+}
+.manu ul li a{
+    margin: 0px 20px;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #0F2656;
+    text-decoration: none;
+    
+}
+.manu ul li:last-child a{
+	margin-right: 0;
+}
+/*header end*/
+
+/*banner start*/
+.b__banner{
+	padding: 50px 0;
+}
+.container2{
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+	width: 60%;
+	
+}
+.b_content{
+	text-align: center;
+}
+.b_content h1{
+	margin: 0;
+	font-size: 50px;
+	font-weight: 700;
+	Line-height: 70px;
+}
+.blue{
+	color: #008AFF;
+}
+.b_content p{
+	margin: 10px 0 20px;
+	Line-height: 25px;
+}
+.b_img{
+	width: 85%;
+	margin: 0 auto;
+	/*border: 3px solid;*/
+
+}
+.b_img img{
+	width: 100%;
+
+}
+
+
+.container3{
+	margin: 0 auto;
+	padding-top: 100px;
+	width: 90%;
+	overflow: hidden;
+
+}
+
+.c_content{
+	margin-left: 320px;
+	margin-right: 50px;
+	width: 25%;
+	float: left;
+
+}
+.c_content h2{
+	text-align: right;
+	float: right;
+
+}
+.red{
+	color: #F15767;
+	float: right;
+	font-size: 50px;	
+}
+
+
+.d_content{
+	
+	width: 40%;
+	float: left;
+}
+.d_content h3{
+    font-size: 4em;
+    margin-block-start: auto;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+	
+}
+
+.c_img{
+	width: 85%;
+	margin: 0 auto;
+	/*border: 3px solid;*/
+
+}
+.c_img img{
+	width: 100%;	
+}
+
+/*banner end*/
+
+/*footer start*/
+
+.container5{
+	padding:  40px 0;
+	color: white;
+	background-color: #0492FF;
+	text-align: center;
+}
+
+.e_content{
+	letter-spacing: 7px;
+	font-weight: 600;
+}
+
+/*fotter end*/
